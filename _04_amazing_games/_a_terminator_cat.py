@@ -51,6 +51,7 @@ def key_pressed():
 
 if __name__ == '__main__':
     window = turtle.Screen()
+
     
     # 1. Find an image of a cat with BIG eyes OR use one of the 2 images provided
     #    a. Find an image using google to search. The image must be a .gif file
@@ -61,11 +62,14 @@ if __name__ == '__main__':
     
     # 2. Call the set_background() function with your variable inside of the parenthesis
     #    for example, set_background(bg_image)
+    set_background(bigEyedCat.gif)
 
     # 3. Make a new turtle
+    window = turtle
 
     # 4. Set the turtle color and pen color to red (or any color you want)
     #    using .color('red', 'red')
+
 
     # 5. Set the turtle width to 0 so no outlines are drawn
 
